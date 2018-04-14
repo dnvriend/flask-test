@@ -1,6 +1,35 @@
 # flask-test
-A small study project on Flask, a microframework for Python.
+A small study project on Flask, a micro framework for Python.
 
+## Installation
+To install type:
+
+```
+$ pip3 install pipenv
+$ pipenv install
+$ pipenv run "python setup.py bdist_wheel"
+$ pip3 install dist/flask_test-0.1-py3-none-any.whl
+```
+
+## Uninstall
+To uninstall type:
+
+```
+$ pip3 uninstall dist/flask_test-0.1-py3-none-any.whl -y
+```
+
+## Running
+To run the example type: 
+
+```
+$ ./launch.sh
+```
+
+Then type the following:
+
+```
+$ curl localhost:5000/get_list_of_objects/10
+```
 
 ## Youtube
 - [Python Web Apps with Flask - Ezra Zigmond](https://www.youtube.com/watch?v=qla-KaMF-2Q)
